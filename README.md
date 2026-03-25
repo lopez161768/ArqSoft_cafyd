@@ -12,3 +12,7 @@ Entregar:
 - pantallazos que muestren toda la app funcionando por consola en paso 2 y, también después del paso 3.
 - .zip del projecto Netbeans.
 -1 página resumen de extras implementados o diseñados.
+
+BACK4APP:
+lopez.161768@e.unavarra.es
+appCafyd
