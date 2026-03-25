@@ -45,7 +45,7 @@ public class InicialConsole implements IInicialView {
 
         if (inputActual.equalsIgnoreCase("P")) {
             perfilAction.run();
-        } else if (!inputActual.equals("0")) {
+        } else if (inputActual.equals("0")) {
             cerrarSesion = true;
         }
         else{
