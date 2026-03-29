@@ -1,0 +1,6 @@
+curl -X POST -H "X-Parse-Application-Id: efLmzg1LvgF58oqKQ6s0Nw0GizH2ssgul4z8AMUl" -H "X-Parse-REST-API-Key: ygnqEDUypcFGRm0pRrY8NGjOwgV462OGaBluopie" -H "Content-Type: application/json" -d "{\"nombreUsuario\":\"test\",\"contraseña\":\"1234\",\"nombre\":\"Test\",\"apellido\":\"User\",\"edad\":25,\"sexo\":\"Hombre\",\"calorias\":true,\"racha\":0,\"fechaRegistro\":\"2025-03-29\"}" https://parseapi.back4app.com/classes/Usuario
+
+
+curl -X POST -H "X-Parse-Application-Id: efLmzg1LvgF58oqKQ6s0Nw0GizH2ssgul4z8AMUl" -H "X-Parse-REST-API-Key: ygnqEDUypcFGRm0pRrY8NGjOwgV462OGaBluopie" -H "Content-Type: application/json" -d "{\"usuarioId\":\"test\",\"fecha\":\"2025-03-29\",\"diaReto\":1,\"completado\":false,\"foto\":\"\",\"dificultad\":0}" https://parseapi.back4app.com/classes/Entreno
+
+curl -X POST -H "X-Parse-Application-Id: efLmzg1LvgF58oqKQ6s0Nw0GizH2ssgul4z8AMUl" -H "X-Parse-REST-API-Key: ygnqEDUypcFGRm0pRrY8NGjOwgV462OGaBluopie" -H "Content-Type: application/json" -d "{\"entrenoId\":\"e39y8GUs7\",\"nombreEj\":\"Sentadillas\",\"descripcionIm\":\"sentadilla.mp4\",\"series\":3,\"repeticiones\":10,\"fallosComunes\":\"Rodillas hacia adentro\"}" https://parseapi.back4app.com/classes/Ejercicio
